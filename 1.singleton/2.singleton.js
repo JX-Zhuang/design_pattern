@@ -12,4 +12,5 @@ Person.prototype.getName = function () {
 var a = new Person('a');
 var b = new Person('b');
 console.log(a===b);
+
 //缺点，如果要创建多个Person，要修改代码，不利于扩展
