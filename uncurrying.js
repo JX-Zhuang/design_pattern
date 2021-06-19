@@ -9,4 +9,4 @@ var push = Array.prototype.push.uncurrying();
 (function () {
     push(arguments,4);
     console.log(arguments);
-})(1,2,3);
+})(1,2,3,4);
